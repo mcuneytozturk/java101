@@ -2,8 +2,6 @@ package javaCourseOne;
 
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 import java.lang.Math;
 
 
