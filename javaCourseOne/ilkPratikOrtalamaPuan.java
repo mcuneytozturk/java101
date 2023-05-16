@@ -2,7 +2,7 @@ package javaCourseOne;
 
 import java.util.Scanner;
 
-public class ilkOdevOrtalamaPuan {
+public class ilkPratikOrtalamaPuan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int fizik, kimya, tarih, matematik, turkçe, muzik;
