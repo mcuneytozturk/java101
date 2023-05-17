@@ -30,6 +30,8 @@ public class ikinciPratikKullaniciGirisi {
             }
         } else if (passWord.equals("java123")){
             System.out.println("Kullanıcı adınız hatalı. Bu konuda bir işlem gerçekleştiremezsiniz. Tekrar deneyiniz");
+        } else {
+            System.out.println("Doğru bildiğin bişey yok git buradan!!");
         }
 
     }
