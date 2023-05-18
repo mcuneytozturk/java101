@@ -9,7 +9,7 @@ public class ikinciPratikCiftveDördünKatlariniBulanProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Girdiğiniz sayıya kadar olan 3 ve 4'ün katı olan sayıların ortalaması için;");
+        System.out.println("Girdiğiniz sayıya kadar olan çift olan ve 4'ün katı olan sayıların ortalaması için;");
         System.out.print("Bir sayı giriniz: ");
 
         int sayi = scanner.nextInt();
