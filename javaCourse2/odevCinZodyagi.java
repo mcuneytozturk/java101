@@ -2,7 +2,7 @@ package javaCourse2;
 
 import java.util.Scanner;
 
-public class odevCinZodyagı {
+public class odevCinZodyagi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
