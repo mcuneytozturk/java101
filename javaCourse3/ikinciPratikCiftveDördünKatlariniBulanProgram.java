@@ -3,9 +3,9 @@ package javaCourse3;
 import java.util.Scanner;
 
 /**
- * birinciPratikCiftSayılarıBulanProgram
+ * ikinciPratikTekSayilarToplami
  */
-public class birinciPratikCiftveDördünKatlariniBulanProgram {
+public class ikinciPratikCiftveDördünKatlariniBulanProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,6 +28,6 @@ public class birinciPratikCiftveDördünKatlariniBulanProgram {
         int ortalama = toplam / bölen;
 
         
-        System.out.println("2'ye ve 4'e bölünebilen sayıların ortalaması: " + ortalama);
+        System.out.println("Çift olan ve 4'e bölünebilen sayıların ortalaması: " + ortalama);
     }
 }
