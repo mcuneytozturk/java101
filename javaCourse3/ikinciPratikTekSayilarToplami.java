@@ -3,9 +3,9 @@ package javaCourse3;
 import java.util.Scanner;
 
 /**
- * birinciPratikCiftSayılarıBulanProgram
+ * ikinciPratikTekSayilarToplami
  */
-public class birinciPratikCiftSayılarıBulanProgram {
+public class ikinciPratikTekSayilarToplami {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,9 +14,11 @@ public class birinciPratikCiftSayılarıBulanProgram {
 
         int sayi = scanner.nextInt();
 
+        int toplam = 0;
+
         for (int i = 0; i < sayi; i++) {
-            if(i % 2 == 0){
-                System.out.println(i + " ");
+            if(i % 2 == 1){
+                toplam += i;
             } else {
                 continue;
             }
