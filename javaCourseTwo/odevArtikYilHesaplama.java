@@ -1,0 +1,7 @@
+/**
+ * odevArtikYilHesaplama
+ */
+public class odevArtikYilHesaplama {
+
+    
+}
