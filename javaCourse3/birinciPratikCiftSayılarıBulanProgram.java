@@ -1,4 +1,4 @@
-package javaCourseThree;
+package javaCourse3;
 
 import java.util.Scanner;
 
