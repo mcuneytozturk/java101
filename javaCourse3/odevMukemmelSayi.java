@@ -2,7 +2,7 @@ package javaCourse3;
 
 import java.util.Scanner;
 
-public class odevMukemmelSayı {
+public class odevMukemmelSayi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
