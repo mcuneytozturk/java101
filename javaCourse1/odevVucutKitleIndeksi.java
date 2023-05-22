@@ -9,17 +9,21 @@ public class odevVucutKitleIndeksi {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        double boy, kilo;
+
+        //değişkenler tanımlanır
+        double height, weight;
 
         System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz: ");
         
-        boy = inp.nextDouble();
+        height = inp.nextDouble();
 
         System.out.print("Lütfen kilonuzu giriniz: ");
         
-        kilo = inp.nextDouble();
+        weight = inp.nextDouble();
 
-        double vki = kilo / (boy * boy);
+        //vki = vücutKiloEndeksi hesaplanır ve yazdırılır
+
+        double vki = weight / (height * height);
 
         System.out.println("Vücut Kitle İndeksiniz : " + vki + " " + "kg/m2");
     }

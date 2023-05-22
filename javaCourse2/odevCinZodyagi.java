@@ -7,53 +7,55 @@ public class odevCinZodyagi {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Doğum Yılınızı Giriniz: ");
-        int dogum = input.nextInt();
+        int birth = input.nextInt();
 
-        int zodyak = dogum % 12;
+        int zadiac = birth % 12;
 
-        String zodyakBurcu;
-        switch (zodyak) {
+        String zodiacSign;
+
+        //switch statement'a zodiac değeri girilere her bir sayının case durumuna göre değer çekilir çıktı alınır 
+        switch (zadiac) {
             case 0:
-                zodyakBurcu = "Maymun";
+                zodiacSign = "Maymun";
                 break;
             case 1:
-                zodyakBurcu = "Horoz";
+                zodiacSign = "Horoz";
                 break;
             case 2:
-                zodyakBurcu = "Köpek";
+                zodiacSign = "Köpek";
                 break;
             case 3:
-                zodyakBurcu = "Domuz";
+                zodiacSign = "Domuz";
                 break;
             case 4:
-                zodyakBurcu = "Fare";
+                zodiacSign = "Fare";
                 break;
             case 5:
-                zodyakBurcu = "Öküz";
+                zodiacSign = "Öküz";
                 break;
             case 6:
-                zodyakBurcu = "Kaplan";
+                zodiacSign = "Kaplan";
                 break;
             case 7:
-                zodyakBurcu = "Tavşan";
+                zodiacSign = "Tavşan";
                 break;
             case 8:
-                zodyakBurcu = "Ejderha";
+                zodiacSign = "Ejderha";
                 break;
             case 9:
-                zodyakBurcu = "Yılan";
+                zodiacSign = "Yılan";
                 break;
             case 10:
-                zodyakBurcu = "At";
+                zodiacSign = "At";
                 break;
             case 11:
-                zodyakBurcu = "Koyun";
+                zodiacSign = "Koyun";
                 break;
             default:
-                zodyakBurcu = "Yanlış değer girildi!";
+                zodiacSign = "Yanlış değer girildi!";
         }
 
-        System.out.println("Çin Zodyağı Burcunuz: " + zodyakBurcu);
+        System.out.println("Çin Zodyağı Burcunuz: " + zodiacSign);
 
         input.close();
     }
