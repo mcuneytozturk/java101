@@ -6,21 +6,26 @@ public class odevMukemmelSayi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
+        //sayı istenşr
         System.out.print("Bir sayı giriniz: ");
-        int sayi = scanner.nextInt();
+        int number = scanner.nextInt();
 
-        int toplam  = 0;
+        int total  = 0;
 
-        for(int i = 1; i < sayi; i++ ){
-            if(sayi != 1 && sayi % i == 0){
-                toplam += i;
+
+        //girilen sayıya kadar olan sayıların kalansız bölenleri total değerine eklenir
+        for(int i = 1; i < number; i++ ){
+            if(number != 1 && number % i == 0){
+                total += i;
             }
         }
+        //eğer total değişkeninin son değeri girilen sayıya eşitse mükemmel sayıdır.
 
-        if(toplam == sayi){
-            System.out.println(sayi + " mükemmel sayıdır");
+        if(total == number){
+            System.out.println(number + " mükemmel sayıdır");
         } else {
-            System.out.println(sayi + " mükemmel sayı değildir");
+            System.out.println(number + " mükemmel sayı değildir");
         }
     }
 }

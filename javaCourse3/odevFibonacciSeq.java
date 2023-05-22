@@ -6,19 +6,25 @@ public class odevFibonacciSeq {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        //Basamak sayısı alınır
+
         System.out.println("Fibonacci serisinin kaç basamağını görmek istediğinizi giriniz: ");
 
-        int basamak = scanner.nextInt(), ilkBasamak = 0, ikinciBasamak = 1;
+        int digit = scanner.nextInt(), firstDigit = 0, secondDigit = 1;
 
-        System.out.print(ilkBasamak + " " + ikinciBasamak + " ");
+        //ilk iki digit 0 ve 1 olacağından onlar önce belirlenir ve yazdırılır
+        System.out.print(firstDigit + " " + secondDigit + " ");
 
-        for(int i = 2; i < basamak; i++){
-            int sıradakiBasamak = ilkBasamak + ikinciBasamak;
+        for(int i = 2; i < digit; i++){
 
-            System.out.print(sıradakiBasamak + " ");
+            //bir sonraki digit toplanır
+            int nextDigit = firstDigit + secondDigit;
 
-            ilkBasamak = ikinciBasamak;
-            ikinciBasamak = sıradakiBasamak;
+            System.out.print(nextDigit + " ");
+
+            //toplama sonrası toplanacak basamaklar değiştirilir
+            firstDigit = secondDigit;
+            secondDigit = nextDigit;
         }
     }
 }
