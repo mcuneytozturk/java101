@@ -18,7 +18,7 @@ public class Match {
         boolean starts = isStart();
         Fighter firstPlayer = starts ? f1 : f2;
         Fighter secondPlayer = starts ? f2 : f1;
-        String start = starts ? f2.name + " başlıyor!!" : f1.name + " başlıyor!!";
+        String start = starts ? f1.name + " başlıyor!!" : f2.name + " başlıyor!!";
 
         System.out.println(start);
 
