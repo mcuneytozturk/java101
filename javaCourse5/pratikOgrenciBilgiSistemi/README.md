@@ -1,0 +1,1 @@
+not hesaplama ödev notları ve sözlü notları girilmesi fonksiyonu ödev olarak yazıldı
