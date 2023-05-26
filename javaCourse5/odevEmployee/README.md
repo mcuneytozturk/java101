@@ -1,0 +1,1 @@
+çalışan maaşı hesaplayan ve ekrana yazdıran program eklendi
