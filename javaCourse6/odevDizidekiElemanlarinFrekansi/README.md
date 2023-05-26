@@ -1,0 +1,1 @@
+bir önceki sıralama ödevinden aldığım kodladiziyi kullanıcıya yazdırıp yazdırdığı dizide kullanılan sayıların kaç kere kullanıldığının çıktısını alıyorum
