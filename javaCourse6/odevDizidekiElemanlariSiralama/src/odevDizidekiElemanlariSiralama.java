@@ -7,11 +7,15 @@ public class odevDizidekiElemanlariSiralama {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
 
+        //kullanıcıdan dizi oluşturması istenir.
+
         System.out.print("Dizinin boyutu n : ");
         int n = Scanner.nextInt();
 
         int[] dizi = new int[n];
         int temp = 1;
+
+        //dizinin elemanları tek tek alınır.
 
         while (temp < n + 1){
             System.out.println(temp + ". Elemanı : ");
@@ -19,7 +23,11 @@ public class odevDizidekiElemanlariSiralama {
             temp++;
         }
 
+        //dizi sıralanır.
+
         Arrays.sort(dizi);
+
+        //dizi yazdırılır.
         System.out.println(Arrays.toString(dizi));
 
     }
