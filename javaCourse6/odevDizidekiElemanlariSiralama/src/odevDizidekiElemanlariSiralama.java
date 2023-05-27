@@ -17,7 +17,7 @@ public class odevDizidekiElemanlariSiralama {
 
         //dizinin elemanları tek tek alınır.
 
-        while (temp < n + 1){
+        while (temp <= n){
             System.out.println(temp + ". Elemanı : ");
             dizi[temp - 1] = Scanner.nextInt();
             temp++;

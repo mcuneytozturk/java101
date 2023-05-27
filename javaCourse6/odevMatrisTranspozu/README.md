@@ -1,0 +1,1 @@
+Matris transpozu bulma ödevi
