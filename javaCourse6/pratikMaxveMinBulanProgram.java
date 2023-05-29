@@ -9,10 +9,14 @@ public class pratikMaxveMinBulanProgram {
 
         int[] nums = { 1, 6, 7, 4, 5, -1, -12, 100, 10 };
 
-        int min = 0;
-        int max = 0;
+        //int değişkenine verilebilecek en küçük ve en büyük sayılar girilir
+        int min = -2147483647;
+        int max = 2147482647;
 
+        //dizi ekrana yazdırılır
         System.out.println("Dizi :" + Arrays.toString(nums));
+
+        //sayı alınır
         
         System.out.print("Girilen sayı: ");
         int num = scanner.nextInt();
@@ -21,6 +25,7 @@ public class pratikMaxveMinBulanProgram {
 
         //EN yakın küçük sayı
         for (int i : nums) {
+            //eğer girilen sayı dizide sıradaki sayıdan büyük ise min değeri değiştirilir son değişiklik en yakın küçük sayı olacaktır
             if (num > i) {
                 min = i;
             }
@@ -28,6 +33,7 @@ public class pratikMaxveMinBulanProgram {
 
         //EN yakın büyük sayı
         for(int i : nums){
+            //eğer girilen sayı dizide sıradaki sayıdan küçük ise max değeri değiştirilir ve ilk değişiklik en yakın büyük sayı olacağından forEach döngüsü durdurulur
             if(i > num){
                 max = i;
                 break;
