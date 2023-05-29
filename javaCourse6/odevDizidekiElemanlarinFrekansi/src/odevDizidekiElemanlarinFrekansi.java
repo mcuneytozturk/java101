@@ -45,7 +45,7 @@ public class odevDizidekiElemanlarinFrekansi {
         // Frekans yazdırılır
         for (int number : frequencyMap.keySet()) {
             int frequency = frequencyMap.get(number);
-            System.out.println(number + " occurs " + frequency + " times");
+            System.out.println(number + " sayısı frekansı " + frequency+ " tekrar edildi.");
         }
 
     }
