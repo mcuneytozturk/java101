@@ -7,7 +7,8 @@ import java.util.Scanner;
 public class pratikSayiTahminOyunu {
     public static void main(String[] args) {
         Random rand = new Random();
-        int number = rand.nextInt(100);
+        int num = 100;
+        int number = rand.nextInt(num);
         System.out.println(number);
 
         Scanner scanner = new Scanner(System.in);
